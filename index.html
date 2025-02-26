@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NC EOG Prep Resources</title>
+  <style>
+    /* Base Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: #000; /* Black background */
+      color: #fff; /* White text */
+      line-height: 1.6;
+      padding-bottom: 60px;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    ul {
+      list-style: none;
+    }
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #000, #2196F3); /* Black to blue gradient */
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 6px rgba(255,255,255,0.1);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      animation: fadeInDown 1s ease-in-out;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav li {
+      margin: 0 15px;
+    }
+    nav a {
+      color: #fff;
+      font-weight: bold;
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+    nav a:hover {
+      color: #2196F3; /* Blue on hover */
+      transform: scale(1.1);
+    }
+    /* Main Content */
+    main {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    section {
+      background: #0D47A1; /* Dark blue (allowed as blue) */
+      margin-bottom: 40px;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(33,150,243,0.3);
+      animation: fadeInUp 1s ease-in-out;
+    }
+    section h2 {
+      font-size: 2rem;
+      color: #fff;
+      border-bottom: 2px solid #2196F3;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    .subsection {
+      margin-bottom: 30px;
+      padding: 15px 20px;
+      border-left: 3px solid #2196F3;
+      background: #000; /* Black */
+      border-radius: 5px;
+      margin-bottom: 25px;
+    }
+    .subsection h3 {
+      font-size: 1.6rem;
+      margin-bottom: 10px;
+      color: #2196F3;
+    }
+    .subsection p {
+      margin-bottom: 10px;
+      text-align: justify;
+    }
+    .subsection ul {
+      margin-left: 20px;
+      margin-bottom: 10px;
+    }
+    .resource-links p {
+      margin-top: 10px;
+    }
+    .resource-links a {
+      color: #2196F3;
+      border-bottom: 1px dashed #2196F3;
+      transition: color 0.3s ease, border-bottom-color 0.3s ease;
+    }
+    .resource-links a:hover {
+      color: #fff;
+      border-bottom-color: #fff;
+    }
+    /* Additional sample questions styling */
+    .additional-questions ul li {
+      margin-bottom: 10px;
+      padding: 8px;
+      background: #2196F3;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+    .additional-questions ul li:hover {
+      background: #64B5F6;
+    }
+    .sample-answer {
+      font-style: italic;
+      color: #fff;
+      margin-left: 20px;
+      margin-top: 4px;
+    }
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #000;
+      font-size: 0.9rem;
+      box-shadow: 0 -2px 5px rgba(33,150,243,0.3);
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+    }
+    /* Animations */
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    /* Responsive */
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+      }
+      nav li {
+        margin: 10px 0;
+      }
+      section h2 {
+        font-size: 1.8rem;
+      }
+      .subsection h3 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NC EOG Prep Resources</h1>
+    <nav>
+      <ul>
+        <li><a href="#grade4-math">4th Grade Math</a></li>
+        <li><a href="#grade4-ela">4th Grade ELA</a></li>
+        <li><a href="#grade5-math">5th Grade Math</a></li>
+        <li><a href="#grade5-ela">5th Grade ELA</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 4th Grade Math Section -->
+    <section id="grade4-math">
+      <h2>4th Grade Math</h2>
+
+      <div class="subsection">
+        <h3>Multi-digit Operations</h3>
+        <p>
+          Practice standard algorithms for addition, subtraction, multiplication, and division. For example, to solve 37 + 85, add the ones (7+5=12, write 2, carry 1) then add the tens.
+        </p>
+        <ul>
+          <li>Addition &amp; Subtraction with Regrouping</li>
+          <li>Multi-digit Multiplication (partial products)</li>
+          <li>Long Division (divide, multiply, subtract, bring down)</li>
+        </ul>
+        <p><strong>Sample Problem:</strong> 5,742 + 3,189 = 8,931</p>
+        <div class="resource-links">
+          <p>Practice on: <a href="https://www.khanacademy.org/math/cc-fourth-grade-math" target="_blank">Khan Academy</a> &amp; <a href="https://www.ixl.com/math/grade-4" target="_blank">IXL</a>.</p>
+        </div>
+        <div class="additional-questions">
+          <h3>Additional NC EOG Sample Questions</h3>
+          <ul>
+            <li>
+              <strong>Q:</strong> Solve 4,125 – 2,389.  
+              <div class="sample-answer">A: 1,736</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Multiply 123 × 45 using partial products.  
+              <div class="sample-answer">A: 5,535</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Divide 864 by 6.  
+              <div class="sample-answer">A: 144</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Find the missing number: ? + 678 = 1,234.  
+              <div class="sample-answer">A: 556</div>
+            </li>
+            <li>
+              <strong>Q:</strong> What is 7,500 – 3,268?  
+              <div class="sample-answer">A: 4,232</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Multiply 87 × 32.  
+              <div class="sample-answer">A: 2,784</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <h3>Fractions</h3>
+        <p>
+          Work on equivalent fractions, comparing fractions with common denominators, and performing operations.
+        </p>
+        <ul>
+          <li>Understanding numerators and denominators</li>
+          <li>Finding equivalent fractions (e.g., 3/4 = 6/8)</li>
+          <li>Comparing fractions using common denominators</li>
+        </ul>
+        <p><strong>Sample Problem:</strong> Which is greater: 2/3 or 3/5?</p>
+        <div class="resource-links">
+          <p>Practice on: <a href="https://www.khanacademy.org/math/fractions" target="_blank">Khan Academy Fractions</a> &amp; <a href="https://www.ixl.com/math/grade-4" target="_blank">IXL</a>.</p>
+        </div>
+        <div class="additional-questions">
+          <h3>Additional NC EOG Sample Questions</h3>
+          <ul>
+            <li>
+              <strong>Q:</strong> Simplify 8/12.  
+              <div class="sample-answer">A: 2/3</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Find an equivalent fraction for 5/6.  
+              <div class="sample-answer">A: 10/12</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Order these fractions (least to greatest): 3/4, 2/5, 5/8.  
+              <div class="sample-answer">A: 2/5, 5/8, 3/4</div>
+            </li>
+            <li>
+              <strong>Q:</strong> If you have 1/2 of a cake and eat 1/4, what remains?  
+              <div class="sample-answer">A: 1/4 remains</div>
+            </li>
+            <li>
+              <strong>Q:</strong> What is 3/4 + 1/4?  
+              <div class="sample-answer">A: 1</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Subtract: 5/6 – 1/3.  
+              <div class="sample-answer">A: 5/6 – 2/6 = 1/2</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <h3>Geometry (Angles, Shapes, Area, Perimeter)</h3>
+        <p>
+          Focus on measuring angles, classifying shapes, and calculating area and perimeter.
+        </p>
+        <ul>
+          <li>Identify acute, right, and obtuse angles</li>
+          <li>Classify shapes: squares, rectangles, trapezoids</li>
+          <li>Area = length × width; Perimeter = sum of sides</li>
+        </ul>
+        <p><strong>Sample Problem:</strong> A rectangle 7 m long and 3 m wide has area 21 m² and perimeter 20 m.</p>
+        <div class="resource-links">
+          <p>Practice on: <a href="https://www.khanacademy.org/math/geometry" target="_blank">Khan Academy</a> &amp; <a href="https://www.splashlearn.com/math/grade-4" target="_blank">SplashLearn</a>.</p>
+        </div>
+        <div class="additional-questions">
+          <h3>Additional NC EOG Sample Questions</h3>
+          <ul>
+            <li>
+              <strong>Q:</strong> Using a protractor, if an angle measures 35°, what type is it?  
+              <div class="sample-answer">A: Acute</div>
+            </li>
+            <li>
+              <strong>Q:</strong> List three properties that define a square.  
+              <div class="sample-answer">A: Four equal sides, four right angles, and parallel opposite sides.</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Find the perimeter of a triangle with sides 5 cm, 7 cm, and 8 cm.  
+              <div class="sample-answer">A: 20 cm</div>
+            </li>
+            <li>
+              <strong>Q:</strong> A rectangle has an area of 36 m² and a length of 9 m. What is its width?  
+              <div class="sample-answer">A: 4 m</div>
+            </li>
+            <li>
+              <strong>Q:</strong> What is the area of a square with a side length of 6 units?  
+              <div class="sample-answer">A: 36 square units</div>
+            </li>
+            <li>
+              <strong>Q:</strong> If a triangle's base is 4 cm and its height is 5 cm, what is the area?  
+              <div class="sample-answer">A: 10 cm²</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <h3>Measurement &amp; Data</h3>
+        <p>
+          Cover unit conversions, volume calculations, and data interpretation from graphs.
+        </p>
+        <ul>
+          <li>Volume = length × width × height</li>
+          <li>Convert between units (inches to feet, meters to centimeters)</li>
+          <li>Interpret bar graphs and line plots</li>
+        </ul>
+        <p><strong>Sample Problem:</strong> Convert 36 inches to feet (36 ÷ 12 = 3 feet).</p>
+        <div class="resource-links">
+          <p>Practice on: <a href="https://www.ixl.com/math/grade-4" target="_blank">IXL</a> &amp; worksheets on <a href="https://www.k5learning.com/worksheets/fourth-grade-math" target="_blank">K5 Learning</a>.</p>
+        </div>
+        <div class="additional-questions">
+          <h3>Additional NC EOG Sample Questions</h3>
+          <ul>
+            <li>
+              <strong>Q:</strong> A rectangular prism has a base area of 24 cm² and a height of 5 cm. What is its volume?  
+              <div class="sample-answer">A: 120 cm³</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Convert 3.5 meters to centimeters.  
+              <div class="sample-answer">A: 350 cm</div>
+            </li>
+            <li>
+              <strong>Q:</strong> If a line plot shows values 1.2, 1.5, 1.8, and 2.0, what is the range?  
+              <div class="sample-answer">A: 0.8</div>
+            </li>
+            <li>
+              <strong>Q:</strong> If 8 oranges weigh 2 kg, what is the weight of 12 oranges?  
+              <div class="sample-answer">A: 3 kg</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Convert 500 ml to liters.  
+              <div class="sample-answer">A: 0.5 liters</div>
+            </li>
+            <li>
+              <strong>Q:</strong> A chart shows scores: 72, 85, 85, 90, 90, 90, 95. What is the mode?  
+              <div class="sample-answer">A: 90</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <h3>Algebraic Thinking</h3>
+        <p>
+          Practice writing and evaluating expressions, solving simple equations, and recognizing numerical patterns.
+        </p>
+        <ul>
+          <li>Translate phrases into expressions (e.g., "2x – 7")</li>
+          <li>Evaluate expressions for given values</li>
+          <li>Solve simple equations (e.g., x + 8 = 15)</li>
+        </ul>
+        <p><strong>Sample Problem:</strong> If y = 4x + 1 and x = 5, then y = 21.</p>
+        <div class="resource-links">
+          <p>Practice on: <a href="https://www.khanacademy.org/math/cc-fifth-grade-math" target="_blank">Khan Academy</a> &amp; <a href="https://www.ixl.com/math/grade-5" target="_blank">IXL</a>.</p>
+        </div>
+        <div class="additional-questions">
+          <h3>Additional NC EOG Sample Questions</h3>
+          <ul>
+            <li>
+              <strong>Q:</strong> Translate "7 less than 2 times a number" into an expression.  
+              <div class="sample-answer">A: 2x – 7</div>
+            </li>
+            <li>
+              <strong>Q:</strong> What is the next number in the pattern: 4, 9, 14, ___?  
+              <div class="sample-answer">A: 19</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Solve for x: x + 8 = 15.  
+              <div class="sample-answer">A: x = 7</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Evaluate: 3(4) + 2(5) – 7.  
+              <div class="sample-answer">A: 15</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Write an expression for "three more than four times a number."  
+              <div class="sample-answer">A: 4x + 3</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Identify the pattern in: 2, 5, 8, 11, __.  
+              <div class="sample-answer">A: Next is 14 (add 3 each time).</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <h3>Multi-Step Word Problems</h3>
+        <p>
+          Solve word problems that require multiple steps and integration of several operations.
+        </p>
+        <p><strong>Sample Problem:</strong> A cafeteria makes 7 pizzas (8 slices each) and has 18 slices left. Slices eaten = 56 – 18 = 38, which equals 4 pizzas and 6 extra slices.</p>
+        <div class="resource-links">
+          <p>Practice on: <a href="https://www.khanacademy.org/math/cc-fifth-grade-math" target="_blank">Khan Academy</a> &amp; word problem sets on <a href="https://www.math-aids.com/" target="_blank">Math-Aids</a>.</p>
+        </div>
+        <div class="additional-questions">
+          <h3>Additional NC EOG Sample Questions</h3>
+          <ul>
+            <li>
+              <strong>Q:</strong> A farmer has 40 m of fencing for a rectangular field. If the length is 12 m, what is the width?  
+              <div class="sample-answer">A: 8 m</div>
+            </li>
+            <li>
+              <strong>Q:</strong> In a class of 30, 3/5 passed a test. How many passed?  
+              <div class="sample-answer">A: 18 students</div>
+            </li>
+            <li>
+              <strong>Q:</strong> A shop sells pencils in packs of 10. How many packs for 125 pencils?  
+              <div class="sample-answer">A: 13 packs</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Mary had $50, spent $12 on a book and $18 on supplies. How much is left?  
+              <div class="sample-answer">A: $20</div>
+            </li>
+            <li>
+              <strong>Q:</strong> A car travels 240 miles in 4 hours. What is its average speed?  
+              <div class="sample-answer">A: 60 mph</div>
+            </li>
+            <li>
+              <strong>Q:</strong> If a recipe calls for 2/3 cup of sugar and you double the recipe, how much sugar is needed?  
+              <div class="sample-answer">A: 4/3 or 1 1/3 cups</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5th Grade ELA Section -->
+    <section id="grade5-ela">
+      <h2>5th Grade ELA</h2>
+
+      <div class="subsection">
+        <h3>Advanced Reading Comprehension</h3>
+        <p>
+          Analyze longer texts by identifying key details, making inferences, and summarizing main ideas.
+        </p>
+        <ul>
+          <li>Analyze text beyond its literal meaning</li>
+          <li>Make deep inferences and summarize</li>
+          <li>Compare texts and discuss differing perspectives</li>
+        </ul>
+        <div class="resource-links">
+          <p>Practice on: <a href="https://www.readworks.org/" target="_blank">ReadWorks</a> &amp; <a href="https://www.commonlit.org/" target="_blank">CommonLit</a>.</p>
+        </div>
+        <div class="additional-questions">
+          <h3>Additional NC EOG Sample Questions</h3>
+          <ul>
+            <li>
+              <strong>Q:</strong> After reading a passage, list three details that support its main idea.  
+              <div class="sample-answer">A: (Answers vary; e.g., "setting description, character actions, and a key event.")</div>
+            </li>
+            <li>
+              <strong>Q:</strong> What inference can you make from "He slammed the door, his face flushed with anger"?  
+              <div class="sample-answer">A: The character is extremely angry.</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Write a brief summary of a narrative about overcoming a challenge.  
+              <div class="sample-answer">A: (Example) "The narrative details a character who faces obstacles but perseveres to achieve success."</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Predict what might happen next based on the title and first paragraph.  
+              <div class="sample-answer">A: (Example) "The conflict will escalate, leading to a surprising twist."</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Identify the tone of a passage describing a stormy night with gloomy language.  
+              <div class="sample-answer">A: Gloomy and ominous.</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Compare two passages about the same event. What is one key difference in their perspectives?  
+              <div class="sample-answer">A: One may be subjective (first-person) and the other objective (third-person).</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <h3>Literary &amp; Informational Text Analysis</h3>
+        <p>
+          Analyze figurative language, author’s purpose, tone, and mood in both narrative and informational texts.
+        </p>
+        <ul>
+          <li>Identify similes, metaphors, and personification</li>
+          <li>Determine the author’s purpose (persuade, inform, entertain)</li>
+          <li>Analyze tone, mood, and point of view</li>
+        </ul>
+        <div class="resource-links">
+          <p>Explore on: <a href="https://www.ixl.com/ela/grade-5" target="_blank">IXL ELA</a> &amp; <a href="https://flocabulary.com/" target="_blank">Flocabulary</a>.</p>
+        </div>
+        <div class="additional-questions">
+          <h3>Additional NC EOG Sample Questions</h3>
+          <ul>
+            <li>
+              <strong>Q:</strong> Find a metaphor in a poem and explain its meaning.  
+              <div class="sample-answer">A: (Example) "Time is a thief" means time steals moments from our lives.</div>
+            </li>
+            <li>
+              <strong>Q:</strong> What is the author’s purpose in a persuasive essay about recycling?  
+              <div class="sample-answer">A: To convince readers to recycle by presenting facts and benefits.</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Determine the tone of a narrative that uses dark, descriptive language.  
+              <div class="sample-answer">A: Somber and reflective.</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Compare the point of view in two passages about the same historical event.  
+              <div class="sample-answer">A: One is first-person (personal) and the other is third-person (objective).</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Identify the figurative language in "Her smile was as bright as the sun."  
+              <div class="sample-answer">A: A simile comparing her smile to the sun.</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <h3>Grammar &amp; Vocabulary</h3>
+        <p>
+          Practice using context clues, understanding Greek/Latin roots, and editing sentences.
+        </p>
+        <ul>
+          <li>Identify parts of speech and root words</li>
+          <li>Edit sentences for proper punctuation and capitalization</li>
+          <li>Create complex and compound sentences</li>
+        </ul>
+        <div class="resource-links">
+          <p>Practice on: <a href="https://www.education.com/worksheets/fifth-grade/grammar/" target="_blank">Education.com</a> &amp; <a href="https://www.ixl.com/ela/grade-5" target="_blank">IXL</a>.</p>
+        </div>
+        <div class="additional-questions">
+          <h3>Additional NC EOG Sample Questions</h3>
+          <ul>
+            <li>
+              <strong>Q:</strong> Identify the root word in "transportation" and list two related words.  
+              <div class="sample-answer">A: Root: "port" (carry); Related: "portable," "import."</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Correct this sentence: "me and my brother went to the park."  
+              <div class="sample-answer">A: "My brother and I went to the park."</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Underline the context clue in "The jubilant crowd cheered as the team scored."  
+              <div class="sample-answer">A: "Jubilant" indicates the crowd was extremely happy.</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Create one complex sentence using "although."  
+              <div class="sample-answer">A: "Although it was raining, we enjoyed the picnic."</div>
+            </li>
+            <li>
+              <strong>Q:</strong> Rewrite "i cant wait to go to summer camp" with correct grammar.  
+              <div class="sample-answer">A: "I can't wait to go to summer camp."</div>
+            </li>
+            <li>
+              <strong>Q:</strong> What does the prefix "un-" mean in "unhappy"?  
+              <div class="sample-answer">A: "Not."</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 NC EOG Prep Resources. All resources are provided for educational purposes.</p>
+  </footer>
+</body>
+</html>
+
